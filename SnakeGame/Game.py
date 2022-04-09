@@ -4,6 +4,10 @@ from Snake import Snake
 from food import Food
 from scoreboard import Scoreboard
 
+__author__ = "Nicolas de Moura"
+__version__ = 1.0
+__date__ = "09/04/2022
+
 screen = Screen()
 screen.bgcolor("black")
 screen.setup(600, 600)
@@ -34,10 +38,8 @@ while game_main_flag:
     if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.xcor() > 280 or snake.head.xcor() < -280:
         scoreboard.game_over()
         game_main_flag = False
-    for segment in snake.segments:
-        if segment == snake.head:
-            pass
-        elif snake.head.distance(segment) < 10:
+    for segment in snake.segments[1:]:
+        if snake.head.distance(segment) < 10:
             scoreboard.game_over()
             game_main_flag = False
 
