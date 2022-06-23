@@ -1,0 +1,7 @@
+Sheety_endpoint='https://api.sheety.co/c0a871fe29358068d2074551e0b27f5a/flightdeals/prices'
+TEQUILA_ENDPOINT=https://tequila-api.kiwi.com/v2/search
+TEQUILA_KEY=UL42hAtLvjFfyAt0QAWSRRt3UBTg8zHz
+TWILIO_SID=ACc947842d7f71f13ecf987646f73e196e
+TWILIO_TOKEN=737dda2df373d4f57e8d48b23bc325b2
+TWILIO_FROM=+19896468385
+TWILIO_TO=+55 99 98510 3232
