@@ -12,9 +12,9 @@ login_button = driver.find_element(by=By.CLASS_NAME, value='nav__button-secondar
 login_button.click()
 
 username = driver.find_element(by=By.ID, value='username')
-username.send_keys('nicolasoutrog@gmail.com')
+username.send_keys('EMAIL')
 password = driver.find_element(by=By.ID, value='password')
-password.send_keys('@Apkc636', Keys.ENTER)
+password.send_keys('SENHA', Keys.ENTER)
 
 jobs = driver.find_elements(by=By.CSS_SELECTOR, value=".job-card-container--clickable")
 
