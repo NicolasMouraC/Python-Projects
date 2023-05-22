@@ -43,7 +43,7 @@ a8"     "" 88 88P'    "8a 88P'    "8a a8P_____88 88P'   "Y8
                     new_position = position + shift
                     if new_position > 26:
                         new_position = new_position - 26
-                if command == "decrypt":
+                elif command == "decrypt":
                     new_position = position - shift
                     if new_position < 0:
                         new_position = 26 + (new_position)
